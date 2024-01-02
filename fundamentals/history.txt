@@ -1,0 +1,8 @@
+
+history : show shell history
+
+!12: execute the 12th command of current history
+
+history -w : delete history of all shells
+
+

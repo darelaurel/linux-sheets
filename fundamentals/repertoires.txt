@@ -1,0 +1,26 @@
+
+/etc/passwd : print all users
+
+/etc/group : print all groups
+
+etc : editing text config (files de config) de tous les programmes & commandes 
+
+opt : données & programmes optionnels
+
+proc : processus en cours
+
+run : infos systemes depuis demarrage du os 
+
+srv : service tournant en tache de fonds
+
+usr : binaire d'usage (binary des programmes)
+
+bin  : binaires d'execution des programmes & commandes
+
+var : données variables
+
+boot : contient les files du chargeur d'amorcage
+
+dev : devices liés au os
+
+lib : regroupe tous les programmes intermediaires
