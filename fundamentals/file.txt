@@ -1,0 +1,16 @@
+
+file fileName
+    retourne type file [ img, ascii text, directory ]
+
+gedit fileName  
+    ouvre file dans editeur defaut de linux 
+
+mv filename newEmplacement 
+    deplacer file dans newEmplacement
+
+rmdir filename -R
+    supprime filename et eventuellement tous repertoires ou files a l'interieur 
+
+
+
+

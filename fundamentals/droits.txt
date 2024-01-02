@@ -1,0 +1,26 @@
+
+x veut dire [ accéder pour un D ]
+
+r = 4
+w = 2
+x = 1 | allow to be listed by ls
+
+drwxr-xr-x : 
+    dr : directory
+    wxr : current user can write, execute, run
+    xr : group of current user can read & execute
+    x : other group can execute 
+
+chmod 
+    chmod u+x span  
+    chmod g-w span  
+    chmod go-x span  
+    chmod 755 -R songs/
+    chmod 751 credentials.txt
+        -R : recursive
+        u+, g+, o+, a+ : grant to user, group, other, all,
+        u-, g-, o-, a- : remove to user, group, other, all
+        w,r,x : type of right
+      
+
+

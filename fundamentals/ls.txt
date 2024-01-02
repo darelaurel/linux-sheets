@@ -1,0 +1,6 @@
+
+ls -a : show hidden files
+
+ls -l : list files like array
+
+ls -R : list recursively

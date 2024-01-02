@@ -9,18 +9,30 @@ opt : données & programmes optionnels
 
 proc : processus en cours
 
-run : infos systemes depuis demarrage du os 
+run : infos systemes depuis dernier demarrage du os 
 
 srv : service tournant en tache de fonds
 
-usr : binaire d'usage (binary des programmes)
+usr : binaire d'usage (binary des programmes) courant
+
+tmp : files temporaires
 
 bin  : binaires d'execution des programmes & commandes
 
-var : données variables
+bin  : super binaires d'execution necessaires au fonctionnement de os
 
-boot : contient les files du chargeur d'amorcage
+var : données des programmes
+
+boot : contient les files du chargeur d'amorcage | gere le dual boot
 
 dev : devices liés au os
 
-lib : regroupe tous les programmes intermediaires
+lib : regroupe tous les programmes necessaires au fonctionnement du OS
+
+home : contient les repertoires personnels de chaque user du OS [Bureau, Downloads, Images....]
+
+media : contient tous les medias [clés, DD ] connectés au OS  -
+         Point de montage de medias amovibles se fait dans media
+
+
+
