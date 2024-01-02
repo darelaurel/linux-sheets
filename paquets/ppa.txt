@@ -1,0 +1,11 @@
+Install from PPA
+    
+    sudo add-apt-repository ppa:ppaPath
+
+    apt-get update namePackageOfPPA
+    
+    apt-get install <paquetOfPPA>
+
+
+
+

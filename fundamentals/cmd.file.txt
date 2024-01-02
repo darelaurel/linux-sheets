@@ -1,5 +1,0 @@
-
-file nomfichier : affiche infos sur le fichier (extension,mime,type)
-
-
-
