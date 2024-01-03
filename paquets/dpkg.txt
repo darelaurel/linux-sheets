@@ -1,7 +1,6 @@
 
 
-
-    dpkg -i file.deb ==>install standalone package file
+    dpkg -i [ emplacement file.deb ] ==>install standalone package file
 
     dpkg -P ==> delete package & dependancies
 

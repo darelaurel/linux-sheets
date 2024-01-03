@@ -2,33 +2,28 @@ apt-get -f install : install all missing dependancies
  
 apt-get update : met a jour la liste des depots
 
-apt-cache search <name> :recherche le package name
+apt-get upgrade : met a jour des depots & dependances
 
+apt-get dist-upgrade : maj. des depots & dependances & potentiels nouvelles dependances
+
+apt-cache search <name> :recherche le package name
 
 apt-get autoremove <name> : supprime package & dependances du package
 
 apt-get --purge <name> : suprime fichiers de config du package
 
-
-apt-get autoremove --purge <name> : suprime package, dependances & files de config ===>
-les  fichiers personnels sont toujours présents dans mon HOME ==> a supprimer manuellement
-
-apt-get upgrade : met a jour des depots & dependances
+apt-get autoremove --purge <name> : 
+	suprime package, dependances & files de config 
+	files personnels sont toujours présents dans mon HOME [ supprimer manuellement ]
 
 apt-get remove $(deborphan)  ===> supprime tous les packages orphelins
 
-apt-get dist-upgrade : met a jour des depots & dependances & potentiels nouvelles dependances
+apt autoclean : Supprimer le cache des paquets périmés
 
+apt clean : Supprimer tout le cache 
 
-
-Supprimer le cache des paquets périmés  ==> sudo apt autoclean
-
-	Supprimer tout le cache ==> sudo apt clean
-
-	Supprimer les paquets installés automatiquement comme dépendances et devenus inutiles  
-		sudo apt autoremove
-
-
+apt autoremove : Supprimer les paquets installés comme dépendances et devenus inutiles  
+		
 
 
 

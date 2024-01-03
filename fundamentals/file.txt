@@ -11,6 +11,26 @@ mv filename newEmplacement
 rmdir filename -R
     supprime filename et eventuellement tous repertoires ou files a l'interieur 
 
+sort file 
+    trie le contenu du file 
+    -n : trie des nombres
+    -o filenew : renvoie le resultat dans filenew 
+
+uniq file
+    trie le contenu du file sans prise en compte des doublon
+
+wc file 
+    affiche nombre de ligne, mots, octets de file
+    -c : nombre octets
+    -w : nombre de mots
+    -l : nombre de lignes
+
+
+cut -d : -f 2 file
+    - organise content file comme un tableau de 2 col
+    - tout ce qui vient avant les [ : ] 1ere col 
+    - autre partie 2e col
+    - [ -f 2] affiche la 2e col
 
 
 

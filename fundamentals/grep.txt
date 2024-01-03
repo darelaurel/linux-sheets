@@ -1,0 +1,14 @@
+ => Recherche & Filtre d'une sortie
+
+grep occurence file 
+    recherche et affiche occurence dans file
+    -n : affiche numero de ligne et occurence
+    -r : recursive
+    -i : insensible a la casse
+    -E : regex
+        grep -E ^h -n file
+
+
+
+
+

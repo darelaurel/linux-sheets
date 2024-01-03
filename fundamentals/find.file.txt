@@ -1,0 +1,21 @@
+
+find binary executables and manuals
+    whereis cmd
+
+find any files from Sys DB Files [ var/lib/mlocate]
+    locate chrome
+    sudo updatedb : force update DB by considering latest changes
+
+find accurate files
+    find [emplacement] -name "filename"
+    find /bin -size +5M 
+    find / *.txt : find all txt files in / 
+    find / -type [ d : directory, f : file ] -name "icons"
+
+
+
+
+
+
+
+
