@@ -1,0 +1,6 @@
+diff fileA fileB
+
+    • se faire de facon lineaire
+    • > ce quil a dans fileB et absent dans fileA
+    • < ce quil a dans fileA et absent dans fileB
+le pays est divisé

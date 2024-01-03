@@ -1,20 +1,33 @@
+
+list depot OS : /etc/apt/sources.list
+
+
 apt-get -f install : install all missing dependancies
  
-apt-get update : met a jour la liste des depots
+apt-get update : met a jour la liste des depots de OS
 
 apt-get upgrade : met a jour des depots & dependances
 
 apt-get dist-upgrade : maj. des depots & dependances & potentiels nouvelles dependances
 
-apt-cache search <name> :recherche le package name
+
+
+apt-cache search <name> : recherche le package name
+
+
 
 apt-get autoremove <name> : supprime package & dependances du package
 
+apt-get remove <name> : supprime package du package
+
 apt-get --purge <name> : suprime fichiers de config du package
 
-apt-get autoremove --purge <name> : 
+apt-get autoremove --purge <name> [ recommandé ]
 	suprime package, dependances & files de config 
 	files personnels sont toujours présents dans mon HOME [ supprimer manuellement ]
+
+
+
 
 apt-get remove $(deborphan)  ===> supprime tous les packages orphelins
 
@@ -24,8 +37,8 @@ apt clean : Supprimer tout le cache
 
 apt autoremove : Supprimer les paquets installés comme dépendances et devenus inutiles  
 		
-
-
+apt-get autoremove --purge : 
+	supprime tous les paquets, dependances, config files de programmes absents
 
 
 

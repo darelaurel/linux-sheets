@@ -1,0 +1,41 @@
+
+Archive : regroupement de plusieurs elements en un seule entité
+
+tar -cf archive.tar data.txt doc.txt : create archive of data.txt & doc.txt
+
+tar -tf archive.tar : show files inside archive
+
+tar -xf archive.tar : extract archive
+
+
+Compression :  archive réduisant le volume de données 
+
+zip archive.zip data.txt doc.txt  
+    create compressive archive of data.txt & doc.txt
+
+
+unzip file.zip : extract archive
+
+zip file.zip cls.pdf  
+    cree file.zip contenant cls.pdf 
+    ou ajoute cls.pdf a file.zip sil n'etait pas dedans
+
+zip file.zip -d cls.pdf 
+    remove cls.pdf from archive
+
+zip file.zip -[0,9] cls.pdf
+    0 => Zero compression 
+    9 => compression high level
+
+zip -Z deflate|bzip2 file.zip cls.pdf  
+    set compression mode bzip2 : better than deflate
+
+zip -T file.zip
+    (integrite) - assurance qu'il a pas perte de données
+
+zip -e file.zip cls.pdf : set password on archive
+
+
+tar -zcf out.tar.gz cls.pdf : create archive compressed gzip(gz)
+
+tar -jcf out.tar.gz : create archive compressed bzip(bz2)

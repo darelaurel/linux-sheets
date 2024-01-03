@@ -1,5 +1,5 @@
 
-sudo ss -tulwn | grep LISTEN  ==>lister les ports ouverts
+sudo ss -tulwn | grep LISTEN  ==> lister les ports ouverts
 
 less /etc/services ===> lister les ports et services les utilisant
 

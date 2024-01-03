@@ -1,0 +1,10 @@
+diff fileA fileB : difference entre 2 files
+
+    • se faire de facon lineaire
+    • > ce quil a dans fileB et absent dans fileA
+    • < ce quil a dans fileA et absent dans fileB
+
+
+    -b : ignorer les blank space [espace]
+    -i : insensible a la casse 
+
