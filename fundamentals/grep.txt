@@ -1,4 +1,4 @@
- => Recherche & Filtre d'une sortie
+ => Recherche & Filtre de string specifiques dans des fichiers ou pour filtrer ceux-ci dans Linux
 
 grep occurence file 
     recherche et affiche occurence dans file

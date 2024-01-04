@@ -4,3 +4,10 @@ ls -a : show hidden files
 ls -l : list files like array
 
 ls -R : list recursively
+
+
+ls -l ; echo "hey" : resultat de ls suivi de hey
+
+ls -l && echo "at" : instruction 1 && instruction 2 
+
+ls -l || echo "at" : instruction 1 ou instruction 2

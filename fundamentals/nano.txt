@@ -1,0 +1,15 @@
+
+config file 
+    /etc/nanorc
+
+Garder avant derniere version de son file 
+    nano -B output.txt 
+        elle sera caché et aura output.txt~
+
+nano -l output.txt
+    met le numero de ligne devant chaque ligne
+
+nano -m /etc/nanorc [sudo apt-get install gpm]
+    [-m] permet usage du curseur avec nano
+
+

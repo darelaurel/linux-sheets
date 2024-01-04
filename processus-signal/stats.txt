@@ -1,0 +1,24 @@
+
+D : 
+    En sommeil ininterruptible. processus et peripherique bloqué - 
+    processus effectue une tâche non interruptible qui ne peut pas se faire. 
+    [ eg - plantage lors d'un formatage de clé]
+
+R : En cours d’exécution.
+
+
+S : En sommeil. 
+    processus inactif mais susceptible d’être réveillé par un appel système ou attente d'evenements.
+
+
+T : Stoppé | Pause. 
+    processus a reçu un signal d’arrêt temporaire et attend un SIGCONT (signal de reprendre).
+
+
+Z : Zombie | Orphelin 
+    processus s'est exécuté correctement mais ne s'est pas éteins et tourne encore. 
+    il n'a plus de raisons de vivre, mais vient quand même hanter le système. 
+    processus parent n'a pas été informé de sa "mort" ou n'a plus de processus parent. 
+
+
+

@@ -1,0 +1,33 @@
+
+Tous les devices sont montés par default sur ubuntu
+
+Point de montage
+    Repertoire dans lequel les files presents sur un storage [clé,DD, ....] Sont accessibles
+
+
+sudo fdisk -l : liste tous les storages du OS
+
+/etc/fstab : details sur les medias du OS [swap & file sys]
+
+
+Eg: creer un point de montage de sdb1
+    mkdir /media/username/stuff
+    mount /dev/sdb1 /media/username/stuff
+
+Demonter
+    unmount /dev/sdb1
+
+Formater support amovible
+    mkfs ntfs /dev/sdc1 -n"Disque amovible"
+ 
+
+Statistiques d'usage de espace disque
+    df -h : 
+        afficher taille disponible sur chaque disque monté
+
+Statistiques d'usage des repertoires 
+    du -a : 
+        afficher taille de chaque file ou repertoire
+        
+    du --exclude "*.tar" * : exclut files terminant par '.tar '
+

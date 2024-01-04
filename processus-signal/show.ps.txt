@@ -1,0 +1,16 @@
+
+ps -ef : afficher les processus avec le format standard
+    
+ps -u username : show processus lancés par username
+
+top 
+    affiche processus en cours d'execution en realtime
+
+sleep 60 
+    dernier processus lancé sera interrompu pour 1mn
+
+echo $$ : "show PID du shell actuel"
+
+echo $! : affiche PID du dernier processus en cours en background
+
+

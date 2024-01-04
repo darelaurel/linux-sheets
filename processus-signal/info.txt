@@ -1,0 +1,11 @@
+
+Un processus : une app en cours d'execution genere plusieurs processus en fonction des taches | actions qu'elles executent
+
+Chaque processus a un code d'execution
+
+On a un processus Pere [PID 1 - /sbin/init ] - de lui decoule tout le reste
+
+
+
+   
+
