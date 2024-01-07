@@ -1,0 +1,31 @@
+
+sessions leaders    
+    instances where the process ID is the same as the session ID
+
+
+PID: Process identification number.
+TTY: returns the terminal type you're logged into
+TIME: Total amount of CPU usage.
+CMD: The name of the command that launched the process.
+
+
+ps -ef : afficher les processus avec le format standard
+
+ps aux [ recommandé ]
+    
+ps -u username : show processus lancés par username
+
+    a  : all processus of all users
+    -A | -e  : all processus on OS
+    -a : tous les processus sauf sessions leaders et processus non associes au terminal
+    -d : all processus sauf sessions leaders
+    T : liste les ps associes au shell courant
+    r : liste les processus en cours d'execution
+    x: affiche les ps non associes au shell courant
+    u : affiche cons. CPU, ram per each ps
+    -u : affiche les ps associés à un user
+    -f : affiche les ps sous forme arbre ascii
+    -j : affiche les ps sous forme de jobs
+
+
+

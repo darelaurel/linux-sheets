@@ -2,6 +2,9 @@
 list depot OS : /etc/apt/sources.list
 
 
+apt list paquetName
+	verifie si paquetName est installé sur notre OS
+
 apt-get -f install : install all missing dependancies
  
 apt-get update : met a jour la liste des depots de OS

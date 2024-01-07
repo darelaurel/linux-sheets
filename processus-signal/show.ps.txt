@@ -1,10 +1,6 @@
 
-ps -ef : afficher les processus avec le format standard
-    
-ps -u username : show processus lancés par username
-
 top 
-    affiche processus en cours d'execution en realtime
+    affiche processus en cours d'execution en realtime qui se maj.
 
 sleep 60 
     dernier processus lancé sera interrompu pour 1mn
