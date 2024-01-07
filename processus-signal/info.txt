@@ -5,7 +5,9 @@ Chaque processus a un code d'execution
 
 On a un processus Pere [PID 1 - /sbin/init ] - de lui decoule tout le reste
 
+Tuer un ps parent revient a tuer tous ses ps enfants
 
-
-   
+• chaque ps a un code de retour
+    0 => tout a bien fonctionné
+    autre => erreur
 

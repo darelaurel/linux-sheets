@@ -1,0 +1,12 @@
+Signal = Changement etat processus
+
+ Eg : lancer une cmd qui a une sortie assez etoffé 
+    - arreter execution de cmd avec ctrl+c 
+    - mettre en pause avec ctrl+z
+
+• kill -l : liste tous les types de signaux
+
+• kill -[ SIGSTOP | STOP | 19 ] PID  
+
+
+
