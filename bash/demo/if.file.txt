@@ -1,0 +1,19 @@
+      
+    -e : existe dans le Workdir
+    -f : checke si fichier
+    -d : checke si repertoire
+    -r : checke si dispo en lecture pour le user courant
+    -w : checke si dispo en ecirture pour le user courant
+    -x : checke si dispo en execution pour le user courant
+    -N : checke si modifié a la derniere ouverture
+    -s : checke si size > 0 ko
+
+    if [ -d 'Cours' ] ; then
+        echo "Cours est un dossier du Workdir courant"
+    elif [ $str1 = $str2 ] ; then
+        echo "Egal"
+    else
+        echo "It is a two digit number"
+    fi
+
+

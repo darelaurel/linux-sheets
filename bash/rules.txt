@@ -1,0 +1,10 @@
+
+• specifier le type de shell en debut du file
+    #!/bin/bash
+
+• substitution de commande 
+    current_dir = $(pwd)
+    echo $current_dir : output pwd
+
+
+

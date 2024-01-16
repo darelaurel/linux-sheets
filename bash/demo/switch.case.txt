@@ -1,0 +1,11 @@
+
+
+cmd=6
+
+case $cmd in
+    1) echo "non 1";;
+    3) echo "non 3";;
+    12) echo "non 12";;
+    7) echo "non 7";;
+    *) echo "Non non";;
+esac

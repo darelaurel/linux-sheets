@@ -1,0 +1,23 @@
+        
+    nb1=12
+    nb2=18    
+    str1="hello"
+    str2="hallo"
+    
+    if [ $nb1 -lt $nb2 ] ; then
+        echo "Less than"
+    elif test $nb1 -eq $nb2 ; then   
+        echo "Equal"
+    elif test $nb1 -gt 1 && $nb2 -gt 1 ; then   
+        echo "Positive numbers"
+    elif [ -z $str1 ] ; then
+        echo "$str1 est vide"
+    elif [ -n $str2 ] ; then
+        echo "$str2 n'est pas vide"
+    elif [ $str1 = $str2 ] ; then
+        echo "Egal"
+    else
+        echo "It is a two digit number"
+    fi
+
+

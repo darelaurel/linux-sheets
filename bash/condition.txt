@@ -1,0 +1,22 @@
+
+• evaluer output de la derniere entree
+    ((1 > 2)) ou ls porn
+    => code de retour 0 : si c'est vrai
+    => code de retour 1 : si c'est faux
+        dans ce cas retournera 1 que ce soit pour ((1 > 2)) et ls porn
+        - fichier porn n'existe pas sur la machine
+        - 1 > 2 est faux
+
+• Symbole de comparaison
+    -lt -le -gt -ge -eq -ne
+     [le] : less or equal
+     [ne] : not equal
+
+•
+
+•
+
+•
+
+
+

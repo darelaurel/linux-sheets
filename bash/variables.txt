@@ -1,0 +1,33 @@
+
+• declaration var se fait laisser d'espace 
+    age = 16 (Pas bon)
+    age= 16 (Pas bon)
+    age =16 (Pas bon)
+    age=16 (Bon)
+
+• readonly age=24 || declare -r age=24
+    variable en lecture seule
+
+• evaluer une expression = avoir valeur reelle de expression
+    data=$((14+6)) || let data=14+6
+    echo $data
+
+• supprimer une var declarée : met fin a son existence
+    unset data
+
+• definir un Set de variables
+    set A B C D 
+    echo $2 = [B] $3 = [C]
+ 
+• assignation de var    
+    data=other
+    other="ok"
+    echo ${!data} : [ok]
+
+• initialisation de var avec operation
+    declare -i data=21+3  Ou
+    let data=14+6 Ou
+    data=$((145 + 66))
+
+
+

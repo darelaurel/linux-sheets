@@ -1,0 +1,17 @@
+
+• affiche [echo] 
+    • -n : empeche retour a la ligne
+    • -e : affiche char speciaux
+    • [commande linux] [cat doc.md] : execute la commande 
+    • $mavar
+    • concatenation "Bonjour $name"
+
+        echo "Starting"
+        echo -n -e "\nEn principe, nouveau defi"
+
+•
+
+•
+
+
+

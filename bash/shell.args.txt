@@ -1,0 +1,31 @@
+
+Args shell qui peut etre utilisé dans les files bash
+
+Filename run.sh Jason Darel Bixby 
+
+• $#  [ nombre de paramètres ] : 
+    • [3] paramètres [ Jason Darel Bixby ]
+
+• $0  [ exécutable ] 
+    • $0 = [run.sh]
+
+• $? 
+    return code de retour de la derniere cmd 
+    [ 0 ie tout s'est bien passé] 
+    [ 1 ou autre chiffre ie probleme] 
+
+• $1 à $9 [ paramètres du shell 1 à 9 ]
+    • $1 [Jason] $2 [Darel] $3 [Bixby]
+
+• ${X} [ paramètre X ] : affiche parametre X ∈ [0-255]
+    • ${2} : [Darel]
+    • ${22} : s'il existait ici serait affiché
+
+• $$ PID du shell courant
+
+• $* liste tous les arguments dans un seul string
+    • Jason Darel Bixby 
+
+• $@ liste tous les arguments 
+    • Jason Darel Bixby 
+
