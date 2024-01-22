@@ -33,4 +33,3 @@ cut -d : -f 2 file
     - [ -f 2] affiche la 2e col
 
 
-

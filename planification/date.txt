@@ -1,0 +1,26 @@
+
+• date : avoir la date actuelle
+
+• date -d "2000-11-22 09:10:15" : passer une date
+
+• date --date="09/10/1960" : passer une date 
+
+• date +"Année: %Y, Mois: %m, Jour: %d" : [ Année: 2024, Mois: 01, Jour: 16 ]
+
+• date "+DATE: %D%nTIME: %T" : [date actuelle - heure actuelle]
+
+• date +"%a %d du %b %Y à %H:%M:%S" [ mar. 16 du janv. 2024 à 20:09:02 ]
+
+• date --date="yesterday" : affiche la date d'hier
+
+• %F = [%Y - %m - %d]
+
+• %T = [%H - %M - %S]
+
+• %A : jour de la semaine [mardi, lundi....]
+
+• %Z : timezone
+
+• %D : [%m / %d / %Y]
+
+•

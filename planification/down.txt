@@ -1,0 +1,9 @@
+
+shutdown
+    -[-H] : mise en veille de la machine
+    -[-P] : power off machine
+    -[-H] : reboot machine
+
+shutdown -h now : power off now
+	
+sudo shutdown -h +15 : power off in 15min

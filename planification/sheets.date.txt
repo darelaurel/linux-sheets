@@ -1,0 +1,20 @@
+
+https://www.malekal.com/la-commande-date-linux-utilisations-et-exemples/
+
+%D 	Date d’affichage comme mm / dd / yy
+%Y	Année (par exemple, 2020)
+%m	Mois (01-12)
+%B	Nom du mois à long terme (par exemple, novembre)
+%B	Nom du mois courte (par exemple, novembre)
+%d	Jour du mois (par exemple, 01)
+%j	jour de l’année (001-366)
+%U	Jour de la semaine (1-7)
+%A	Nom complet de la semaine (par exemple, vendredi)
+%A	Nom de la semaine courte (par exemple, vendredi)
+%H	Heure (00-23)
+%I	Heure (01-12)
+%M	Minute (00-59)
+%S	Secondes (00-60)
+%s	Secondes depuis 1970-01-01 00:00:00 UTC
+%w	Jour de la semaine (0..6), 0 représente le dimanche
+%W	Numéro de la semaine, avec lundi en premier jour de la semaine (00..53)

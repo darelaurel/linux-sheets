@@ -6,7 +6,37 @@ Signal = Changement etat processus
 
 • kill -l : liste tous les types de signaux
 
+• kill -[SIGTERM | 15]  PID (par défaut)
+    - demande a OS d'arreter de la plus bonne des manieres le processus
+
+• kill -[SIGQUIT | 3]  PID (par défaut)
+    - arret avec SIGTERM + core dump [ 
+        - file snapshot des actions du processus 
+        - a la relance ou pour les logs il est utile] 
+
 • kill -[ SIGSTOP | STOP | 19 ] PID  
+    - similaire au ctrl+z 
+    - stoppe le processus - met en background - peut reprendre plus tard
 
+• kill -[ SIGCONT | CONT | 18 ] PID  
+    - remettre en execution un PS stoppé
 
+• kill -[ SIGKILL | KILL | 9 ] PID  
+    - similaire au ctrl+c
+    - OS doit arreter processus immediatement
+
+• killall appname [chrome | firefox | dynalist]
+    - tuer tous les processus d'une app
+
+• fg
+    - similaire a SIGCONT 
+    - se fait apres un SIGSTOP pour relancer le processus
+    - [ fg %1 ] : passe le 1er ps de ouptut de [ jobs ] en 1er plan
+
+• Mettre un processus en background
+    - appname & [ lie au shell courant et met appname en background] OU
+    - lance appname depuis terminal - ctrl+z  - bg
+
+• jobs
+    - liste tous les processus en background
 

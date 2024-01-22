@@ -1,0 +1,32 @@
+
+ Planifier des commandes a executer a une periode donnée
+
+ • [Syntaxe] 
+        • step 1 : at [hour] -options
+        • step 2 : taper le ou les cmd a executer
+        • step 3 : ctrl + D pour signaler la fin des cmd a executer
+    ou  
+        commande | at now + 5 minutes
+
+*[hour] : 
+    - 12:00 : sera executé a 12h [jour par defaut - aujourd'hui]
+    - 20:00 12/31/2025 : sera executé le 31 dec 2025 à 20h:00
+    - now : sera executé maintenant (bon pour les tests)
+    - now + 30 minutes : sera executé dans 30 minutes
+    - midnight : sera executé à minuit
+    - noon : sera executé à midi
+    - teatime : sera executé à 16h
+    - tomorrow : sera executé demain
+    - 3PM : sera executé à 15h
+
+• Voir la liste des taches en cours
+    - atq ou at -l
+
+• Supprimer une tache
+    - atrm numeroTache ou at -r numeroTache
+
+• 
+
+• 
+
+• 
