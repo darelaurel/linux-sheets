@@ -1,0 +1,24 @@
+
+• Show all groups on machine
+    - compgen -g
+    - cat /etc/group Ou cut -d: -f1 /etc/group
+
+• Show all groups of current user
+    - groups
+
+• chgrp [groupname] [username] : met username dans le groupname
+
+• gpasswd -d [username] [groupname] : enleve username dans le groupname
+
+• id :  display uid et gid de current user
+
+• id username :  display uid et gid de username
+
+• users : voir toutes les sessions ouvertes [utilisateurs loggés] de la machine 
+
+• who : voir toutes les sessions ouvertes [utilisateurs loggés] de la machine 
+
+• w : surveiller activité des users [sessions, CPU usage, memoire] 
+
+• 
+

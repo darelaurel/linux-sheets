@@ -1,0 +1,8 @@
+
+• Savoir depuis quand le OS a été démarré pour la derniere fois
+
+    -p (--pretty) pour afficher au format plus compréhensible
+    -h (--help) pour afficher l’aide en ligne
+    -s (--since) pour afficher le temps au format {yyyy-mm-dd HH:SS}
+
+

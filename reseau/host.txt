@@ -1,0 +1,17 @@
+
+• Hôte cest tout user connecté a un reseau
+    - In terminal [username@servername] : darel@darel-Vostro-5468
+    - Nom d'hote [darel-Vostro-5468]
+    - [servername] : Identité de la machine sur un réseau
+
+• hostname : affiche le contenu de /etc/hostname
+
+• host domain : affiche ip du domaine
+
+• editer les redirections sur sa machine dans /etc/hosts
+
+• whois domain : obtenir toutes les infos sur un nom de domaine 
+
+• 
+
+• 

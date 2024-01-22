@@ -1,0 +1,14 @@
+
+• Show all users on machine
+    - compgen -u 
+    - cat /etc/passwd Ou cut -d: -f1 /etc/passwd Ou awk -F: '{ print $1}' /etc/passwd
+
+• sudo adduser [username] : créer un utilisateur
+
+• sudo passwd [username] : changer password de username
+
+• usermod : ajoute privileges a un usermod
+    - sudo usermod [username] -aG sudo : ajoute username au groupe sudo 
+
+• sudo deluser [username] : Supprimer utilisateur username
+

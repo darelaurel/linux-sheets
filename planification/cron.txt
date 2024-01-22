@@ -22,4 +22,3 @@
 
 • 00 */6 * * * /root/scripts/synchronisation-ftp.sh
     - toutes les 6 heures
-•
