@@ -1,0 +1,6 @@
+
+• continue : quitte iteration actuelle et va a iteration suivante de la boucle 
+
+• break : met fin a la boucle - sort de la boucle et passe a instruction apres boucle
+
+

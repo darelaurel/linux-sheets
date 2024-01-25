@@ -1,0 +1,11 @@
+
+• SImple boucle
+
+    i=0
+
+    until ((i < 10))
+    do
+        echo "Nombre: $i"
+        i = $(($i+1))
+    done
+

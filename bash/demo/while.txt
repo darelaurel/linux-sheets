@@ -1,0 +1,25 @@
+
+• SImple boucle
+
+    i=0
+
+    while [ $i -lt 5 ]
+    do
+        echo "Nombre: $i"
+
+        ((i++))
+        
+        if [[ "$i" == '3' ]]; then
+            break
+        fi
+
+    done
+
+• Boucle file [ lire un fichier ]
+    
+    filename=/etc/passwd
+    while IFS= read -r ligne
+    do
+        echo $ligne
+    done < "$filename"
+

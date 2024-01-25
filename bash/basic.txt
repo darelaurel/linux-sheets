@@ -1,4 +1,15 @@
 
+• specifier le type de shell en debut du file
+    #!/bin/bash
+
+• substitution de commande 
+    current_dir = $(pwd)
+    echo $current_dir : output pwd
+
+• String
+    proces = `ps`
+    echo $proces : output ps
+
 • affiche [echo] 
     • -n : empeche retour a la ligne
     • -e : affiche char speciaux
@@ -12,6 +23,5 @@
 •
 
 •
-
 
 

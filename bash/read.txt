@@ -3,7 +3,6 @@
     • -p "quel est ton prenom" : ajoute libelle au prompt
     • -s masquer la saisie
     • -n number [limite la saisie a number]
-    • $name
 
         read -p "Quel est ton age?" -n 3 age
         echo $age

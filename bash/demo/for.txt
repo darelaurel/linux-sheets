@@ -1,0 +1,30 @@
+
+"$@" == prend en compte les args qui ont le char espace
+
+• SImple boucle
+
+    for arg in "$@"
+    do
+        echo "$arg"
+    done
+
+
+• SImple boucle
+    for i in 1 2 3 4 5 ; do echo "Bonjour $i" ; done
+
+• SImple boucle
+    for (( i=1; i<=10; i++ ))
+    do  
+        echo "Bonjour $i"
+    done
+
+• Renommer tous les files du repertoire courant en changeant espace par _
+    for fichier in *\ *; do
+        mv "$fichier" "${fichier// /_}"
+    done
+
+• Changer extension fichier
+    for file in *.jpeg; do
+        mv -- "$file" "${file%.jpeg}.jpg"
+    done
+

@@ -12,8 +12,10 @@
      [le] : less or equal
      [ne] : not equal
 
-•
-
+• Prendre en compte les strings avec espace ou appliquer les regex
+    if [[ -f $file ]] 
+    if [[ $answer =~ ^y(es)?$ ]]
+        - fait que $file peut contenir des espaces "Mon Dossier Personnel"
 •
 
 •

@@ -15,5 +15,13 @@
     else
         echo "It is a two digit number"
     fi
+    
+
+    if test -f list.txt && test -d Documents
+    then
+        echo 'action if config exists'
+    else
+        echo 'action if config does not exist'
+    fi
 
 

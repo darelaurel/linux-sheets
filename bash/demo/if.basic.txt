@@ -8,7 +8,9 @@
         echo "Less than"
     elif test $nb1 -eq $nb2 ; then   
         echo "Equal"
-    elif test $nb1 -gt 1 && $nb2 -gt 1 ; then   
+    elif test $nb1 -gt 1 && test $nb2 -gt 1 ; then   
+        echo "Positive numbers"
+    elif [ $nb1 -gt 1 ] && [ $nb2 -gt 1 ]; then   
         echo "Positive numbers"
     elif [ -z $str1 ] ; then
         echo "$str1 est vide"
