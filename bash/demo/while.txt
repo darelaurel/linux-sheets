@@ -17,6 +17,8 @@
 
 • Boucle file [ lire un fichier ]
     
+    Le IFS prend en compte les espaces
+
     filename=/etc/passwd
     while IFS= read -r ligne
     do

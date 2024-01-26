@@ -1,0 +1,43 @@
+
+• Simple function 
+    showname () {
+        local name = "abule"
+        echo "Inside function: name"
+    }
+    showname
+
+
+• Function avec arguments
+    showname () {
+        echo "$1 $2"
+    }
+    showname 56 76
+
+• Function avec retour
+    *NB : code de retour [0-255]
+        - si 0 : tout s'est bien passé
+        - si autre nombre : erreur. D'ou les codes erreurs 
+            13 : Pb connexion
+            18 : Pb memoire
+            112 : Pb bande passante
+
+    - [Difference de nombre de jours entre aujourd'hui et le 1er Jan 2024]
+
+        wishHappyNewYear2024() {
+            cond = $((($(date +%s) - $(date -d "2024-01-01" +%s))/86400))
+            if [ $now -ge 10 ]then
+                echo "58 jours de separation";
+            fi
+
+            if [ "$cond" -eq 0 ]; then
+                echo "Happy new year"
+                return 0
+            elif [ "$cond" -lt 0 ]; then
+                return 13
+            else
+                return 12
+            fi
+            
+        }
+        wishHappyNewYear2024
+        echo $? [ affiche code de retour de wishHappyNewYear2024 ]

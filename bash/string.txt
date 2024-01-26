@@ -1,7 +1,53 @@
 
 • Déclarer string 
-    - 
-    - 
-    - 
+    1- str1 = 'Je suis un string'
+    2- str2 = "Je suis un string"
+    3- str3 = `Je suis un string`
+    
+    * Le 3 nous permet d'executer des commandes 
+        proces = `ps` ; echo $proces : output ps
+    * Le 2 nous permet de concatener.
+        str4 ="$str1 dans Bash"
+
+• Afficher string
+    echo ${str1}
+
+• Afficher lenght string
+    echo ${#str1}
+
+• Afficher string en lowercase
+    echo ${str1,,}
+
+• Afficher string en uppercase
+    echo ${str1^^}
+
+• Afficher 1er char en miniscule
+    echo ${#str1,}
+
+• Afficher un char special en lowercase
+    echo ${str1,,[S]} : les chars S dans str1 sera en miniscule
+
+• Obtenir une sous-chaine à partir d'un index
+    echo ${str1:8} : retourne [un string]
+
+• Obtenir une sous-chaine à partir d'un index et la taille de la chaine
+    echo ${str1:3:6} : retourne [suis]
+
+• remplacer une occurence
+    
+    - echo ${str1/s/l} : retourne [Je luis un sring] (1er match)
+
+    - echo ${str1//s/l} : retourne [Je luil un lring] (globalement)
+
+    - echo ${str1/#J/P} : retourne [Pe suis un string] (remplacer le J en début du String par P)
+
+    - echo ${str1/%g/o} : retourne [Je suis un strino] (remplacer le g en fin du String par o)
+
+    - echo ${str1//s/} : remplace tous les du string par "" (vide) (globalement)
+
+    - echo ${str1#J*e} : retourne [suis un string] (supprimer un intervalle de valeur de J jusqu'au 1 'e' dans le string)
+
+
+
 
 

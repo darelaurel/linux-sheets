@@ -1,0 +1,58 @@
+
+• Déclarer un tableau par indice
+    declare -a ages=(23 56 74 28)
+
+• Déclarer un tableau par indice
+    declare -a retraites=(23 56 [5]=87 76) 
+        retraites[0] = 23
+        retraites[1] = 56
+        retraites[2] à retraites[4] = "indefini"
+        retraites[5] = 87
+        retraites[6] = 76
+
+• Déclarer un tableau par indice en readonly 
+    declare -r -a maths=(alpha beta gamma)
+
+• Declarer un tableau associatif
+    declare -A fullnameEnfant=(["prenom"]="Marc Arthur Yohann" ["nom"]="DOSSOU-YOVO")
+
+• Déclarer un tableau à partir d'un autre tableau
+    declare -a melange=(89 $age[@] 58) <==> [89 23 56 74 28 58]
+
+• Déclarer un tableau à 2dimensions [matrices]
+1 4
+6 12
+    declare -A matrice = ([0:0]=1 [0:1]=4 [1:0]=6 [1:1]=12) 
+
+echo ${#ages[@]} <==>  affiche la taille d'un tableau
+
+echo ${ages[0]} <==>  affiche le premier index (23)
+
+echo ${ages[-1]} <==>  affiche le dernier elt (28)
+
+echo ${!ages[@]} <==>  affiche les indices (tab. a index) ou les clés (tab. associatifs)
+
+echo ${ages[@]} <==> lister chaque élément du tableau
+
+echo ${ages[*]} <==> lister les elts du tableau sous forme d'un string
+
+echo ${fullnameEnfant["prenom"]} <==> affiche "Marc Arthur Yohann"
+
+
+• Looper un tableau a indice 
+    for $number in ${ages[@]}
+    do 
+        echo $number
+    done
+
+ • Changer la valeur d'un tableau
+    ages[3] = 19 (remplace 28 par 19)
+    fullnameEnfant["surnom"] ="Aigle"
+
+• Supprimer un elt du tableau
+    unset ages[1] : supprimer le 1er elt du tableau
+
+• Supprimer tous les elts du tableau
+    unset ages 
+
+

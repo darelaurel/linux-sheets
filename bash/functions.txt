@@ -1,0 +1,10 @@
+
+• Portée des vars
+    * local similaire à declare 
+    - Toute var declaree en dehors de la function et modifiée dans une fn subira cette modification
+    - Toute var declaree dans une function n'est dispo et usable que dans cette function
+
+    local -i age = 24    
+    local -a ages = (24 63 87 56)    
+
+
